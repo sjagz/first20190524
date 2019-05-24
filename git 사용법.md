@@ -48,3 +48,63 @@ CLI(Command Line Interface) 현재 상태를 알기 위해 반드시
 
 커밋할 목록에 담겨 있는지, untracked 인지, 커밋할 내역이 
 있는지 등등 다양한 정보를 알려준다. 
+
+
+
+
+
+# 원격저장소 활용하기
+
+
+
+1. 원격저장소 (remote repository) 등록하기
+
+```bash
+$ git remote add ___이름____ _____경로-____
+```
+
+​	원격 저장소(remote) 를 등록(add) 한다. origin 이름으로 경로를 
+
+​	최초로 한번만 등록하면 된다
+
+​	아래의 명령어로 현재 등록된 원격 저장소를 확인할 수 있다
+
+
+
+```bash
+$ git remote --v 
+origin  https://github.com/sjagz/first20190524.git (fetch)
+origin  https://github.com/sjagz/first20190524.git (push)
+
+```
+
+
+
+2. 원격 저장소에 올리기 (push)
+
+```bash
+$ git push origin master
+```
+
+​	git에 올리기(push) 이름 (origin )인 것을 원격저장소에 master 로
+
+
+
+3. 원격 저장소로부터 가져오기(pull)
+
+```bash
+$ git pull origin master
+```
+
+# 원격저장소 복제(clone) 하기
+
+```bash
+$ git clone ____경로____
+```
+
+깃배쉬에서 원하는 폴더 경로를 찍어주고
+
+경로는 깃허브 레파지토리에서 우측  clone or download 클릭해서 링크(경로)
+
+
+

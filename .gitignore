@@ -1,5 +1,5 @@
-venv/
-.IDEA/
+﻿venv/
+.idea/
 
 # Created by https://www.gitignore.io/api/python,windows,pycharm
 # Edit at https://www.gitignore.io/?templates=python,windows,pycharm
